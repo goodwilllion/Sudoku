@@ -1,4 +1,4 @@
-package sudoku;
+
 /**
  * The Sudoku number puzzle to be solved
  */
@@ -56,6 +56,10 @@ public class Puzzle {
             isGiven[row][col] = hardcodedIsGiven[row][col];
          }
       }
+   }
+
+   public int getSolutionAt(Object row, Object col) {
+      return 0;
    }
 
    //(For advanced students) use singleton design pattern for this class
